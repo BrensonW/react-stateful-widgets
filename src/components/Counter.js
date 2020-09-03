@@ -68,14 +68,14 @@ const [count, setCount] = useState(0);
     fontSize: '1.5em',
     marginBottom: '0.3em',
     color: count % 2 === 0 ? 'royalblue' : 'crimson', /* STEP 2 */
-    //ternary operator if statement ? true:false
+    
   };
 
   return (
     <div className='widget-counter container'>
       <h2>Counter</h2>
-      <div id='count' style={style}>
-        Number {count} is even</div> {/* STEP 3 */}
+      <div style={style}>
+        Number {count} is {count % 2 === 0 ? 'even' : 'odd'}</div> {/* STEP 3 */}
       <div>
         <button onClick={increment}>Increment</button>
         <button onClick={decrement}>Decrement</button>
