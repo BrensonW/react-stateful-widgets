@@ -77,9 +77,9 @@ const [count, setCount] = useState(0);
       <div style={style}>
         Number {count} is {count % 2 === 0 ? 'even' : 'odd'}</div> {/* STEP 3 */}
       <div>
-        <button onClick={increment}>Increment</button>
-        <button onClick={decrement}>Decrement</button>
-        <button onClick={reset}>Reset</button>
+        <button id='increment' onClick={increment}>Increment</button>
+        <button id='decrement' onClick={decrement}>Decrement</button>
+        <button id='resetCount' onClick={reset}>Reset</button>
       </div>
     </div>
   );
