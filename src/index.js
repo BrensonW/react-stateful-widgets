@@ -16,7 +16,10 @@ render(
     <Input />
     <Squares />
     <Programmers />
+
   </>
   ,
   document.querySelector('#root')
 );
+
+
