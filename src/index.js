@@ -8,6 +8,7 @@ import Spinner from './components/Spinner';
 import Squares from './components/Squares';
 import Programmers from './components/Programmers';
 
+
 render(
   <>
     <Counter />
@@ -16,7 +17,10 @@ render(
     <Input />
     <Squares />
     <Programmers />
+    
   </>
   ,
   document.querySelector('#root')
 );
+
+
