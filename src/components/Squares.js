@@ -38,13 +38,7 @@ const getClassName = element => {
     // It should return a string containing the class name of 'active', if the id passed
     // as the argument matches the active square in state, empty string otherwise.
     // Right-click and "inspect element" on the square to see its effect.
-  //   if(id === activeSquare) {
-  //     return 'active'
-  //   } else {
-  //     return ''
-  //   }
-  // };
-
+ 
  
     // This is a helper used inside an _inlined_ click handler (see below).
     // Set the id argument to become the active id in state
